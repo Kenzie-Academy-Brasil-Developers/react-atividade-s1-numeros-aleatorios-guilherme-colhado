@@ -1,0 +1,18 @@
+.botao{
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    background-color: palevioletred;
+    border: 1px inset red;
+}
+
+.anima{
+    animation: click 1s;
+}
+
+@keyframes click {
+    50%{
+        transform: scale(0.9);
+        border-style: outset;
+    }
+}
